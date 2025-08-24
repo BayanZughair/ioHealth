@@ -1,0 +1,20 @@
+Here is a suggestion for Application Improvement
+User Experience
+Add clearer messages after actions like adding to cart or completing orders.
+Use inline form validation to guide users while filling out forms.
+
+Performance
+Optimize image loading on the product pages.
+Consider lazy loading for product lists.
+Stability
+Improve error handling for backend API failures.
+
+code 
+Centralize Selectors:
+Keep all By locators inside page classes to avoid hardcoding in tests.it will fail if CSS selectors change
+
+Use Explicit Waits:
+Apply waits for elements that may load dynamically to improve test reliability.
+
+Add BasePage Class:
+Include common methods like clickElement, getText, isElementDisplayed to reduce code duplication.

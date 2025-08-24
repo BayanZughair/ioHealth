@@ -1,6 +1,7 @@
-##Tools & Tech Stack
-Java
-Selenium
-SerenityBDD
-Cucumber Gherkin
-Maven
+
+## Tools & Tech Stack
+- Java 
+- Selenium
+- SerenityBDD
+- Cucumber Gherkin
+- Maven
